@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/uiannotationexampleactivity_okbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try me" />
+
+    <TextView
+        android:id="@+id/uiannotationexampleactivity_testText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I will be hidden when the webrequest is running!" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/uiannotationexampleactivity_testEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My content will be cleared when the webrequest starts running" />
+
+    <EditText
+        android:id="@+id/uiannotationexampleactivity_testEdit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My content will be cleared and I will be disabled when a webrequests starts running" />
+
+    <FrameLayout
+        android:id="@+id/uiannotationexampleactivity_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

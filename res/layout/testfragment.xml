@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/testfragment_testText"
+    android:layout_height="match_parent" 
+    android:text="I am within a fragment that is searched for ui annotations. I will be hidden when a webrequest starts">
+    
+
+</TextView>
